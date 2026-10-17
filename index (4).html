@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I'm the Proof</title>
+<meta name="description" content="I'm the Proof: a three-part diss trilogy. Broken promises, reckless talk, and hate disguised as attention — all documented, all on beat.">
+<meta name="robots" content="index, follow">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0a0908;
+    --fg: #f0e9d8;
+    --dim: #7a7468;
+    --blood: #c2332b;
+    --gold: #c9a227;
+    --card: #141110;
+    --line: #2b2522;
+  }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Georgia, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 20px 64px;
+    min-height: 100vh;
+  }
+  header { text-align: center; max-width: 680px; margin-bottom: 48px; }
+  header .kicker {
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--blood);
+    margin-bottom: 16px;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+    font-weight: 700;
+  }
+  h1 {
+    font-size: clamp(44px, 9vw, 76px);
+    font-weight: 700;
+    line-height: 1.02;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+  h1 .blood { color: var(--blood); }
+  header p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--dim);
+    font-style: italic;
+  }
+  header p strong { color: var(--fg); font-style: normal; }
+  .tracks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 680px;
+  }
+  .track {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--blood);
+    border-radius: 0 12px 12px 0;
+    padding: 28px 28px 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .25s, transform .25s;
+  }
+  .track:hover {
+    border-left-color: var(--gold);
+    transform: translateY(-2px);
+  }
+  .track .num {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--blood);
+    margin-bottom: 10px;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+    font-weight: 700;
+  }
+  .track h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+  .track p.desc {
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--dim);
+    margin-bottom: 16px;
+  }
+  .track p.desc em { color: var(--fg); }
+  .track .meta {
+    font-size: 13px;
+    color: var(--dim);
+    margin-bottom: 18px;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+  }
+  .track .cta {
+    display: inline-block;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--blood);
+    padding: 12px 24px;
+    border-radius: 6px;
+  }
+  .track:hover .cta { background: var(--gold); color: var(--bg); }
+  footer {
+    margin-top: 56px;
+    text-align: center;
+    color: var(--dim);
+    font-size: 15px;
+    font-style: italic;
+    max-width: 560px;
+    line-height: 1.7;
+  }
+  footer .tag {
+    display: inline-block;
+    margin-top: 14px;
+    font-style: normal;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--blood);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">A three-part diss trilogy</div>
+  <h1>I'm the <span class="blood">Proof</span></h1>
+  <p>You talked. I documented.<br>
+  Three opponents, three failures, <strong>zero survivors</strong>.<br>
+  Every bar is a receipt.</p>
+</header>
+
+<main class="tracks">
+
+  <a class="track" href="ya-da-promise.html">
+    <div class="num">Victim 01</div>
+    <h2>You the Promise</h2>
+    <p class="desc">Said a whole lot of nothing, then did even less. <em>Promises are just lies with better lighting.</em> This one's for everybody who talks about the future because their past is embarrassing.</p>
+    <div class="meta">83.35 BPM &middot; Slow build, then the verdict drops.</div>
+    <span class="cta">Watch the evidence</span>
+  </a>
+
+  <a class="track" href="you-the-talk.html">
+    <div class="num">Victim 02</div>
+    <h2>You the Talk</h2>
+    <p class="desc">Ran your mouth so much you became my <em>unpaid publicist</em>. Every warning just made her curious. Congratulations &mdash; your hate is my marketing department.</p>
+    <div class="meta">86.13 BPM &middot; Talk that shit. I'll wait.</div>
+    <span class="cta">Watch the evidence</span>
+  </a>
+
+  <a class="track" href="you-the-fan-v2.html">
+    <div class="num">Victim 03</div>
+    <h2>You the Fan</h2>
+    <p class="desc">Three grown men, one group chat, <em>zero courage</em>. You study my every move like you're getting paid &mdash; spoiler: you're not. You're just a fan with extra steps.</p>
+    <div class="meta">86.14 BPM &middot; I'm the proof. You're the fan. Keep talking.</div>
+    <span class="cta">Watch the evidence</span>
+  </a>
+
+</main>
+
+<footer>
+  <p>You wanted my attention? Congratulations, you got mentioned.<br>
+  Don't confuse a punchline with respect.</p>
+  <span class="tag">#imtheproof</span>
+</footer>
+
+</body>
+</html>
